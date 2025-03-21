@@ -4,8 +4,8 @@ use game_session_io::*;
 use gtest::{Program, ProgramBuilder, System};
 
 const USER1: u64 = 10;
-const SESSION_PROGRAM_ID: u64 = 100;
-const WORDLE_PROGRAM_ID: u64 = 200;
+const SESSION_PROGRAM_ID: u64 = 1;
+const WORDLE_PROGRAM_ID: u64 = 2;
 
 #[test]
 fn test_game_start() {
